@@ -997,7 +997,7 @@ again:
 	{
 		if (byteCount < 0)
 			throw new ArgumentOutOfRangeException ("byteCount", _("ArgRange_NonNegative"));
-		return byteCount;
+		return byteCount + 1;
 	}
 
 	// Get a UTF8-specific decoder that is attached to this instance.
